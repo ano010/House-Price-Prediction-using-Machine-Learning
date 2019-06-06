@@ -1,0 +1,421 @@
+Top home property url:
+https://ikman.lk/en/ads/sri-lanka/property
+
+
+Pagination:
+https://ikman.lk/en/ads/sri-lanka/property?page=2
+
+
+Houses: all
+https://ikman.lk/en/ads/sri-lanka/houses?categoryType=ads
+
+Houses: rent only
+https://ikman.lk/en/ads/sri-lanka/houses?categoryType=ads&type=for_rent
+
+
+Land: all
+https://ikman.lk/en/ads/sri-lanka/land?categoryType=ads
+
+Land: rent only
+https://ikman.lk/en/ads/sri-lanka/land?categoryType=ads&type=for_rent
+
+
+Aparments: all
+https://ikman.lk/en/ads/sri-lanka/apartments?categoryType=ads
+
+Apartments: rent only 
+https://ikman.lk/en/ads/sri-lanka/apartments?categoryType=ads&type=for_rent
+
+Commercial Property: all 
+https://ikman.lk/en/ads/sri-lanka/commercial-property?categoryType=ads
+
+Commercial Property: rent only
+https://ikman.lk/en/ads/sri-lanka/commercial-property?categoryType=ads&type=for_rent
+
+
+HolyDay short term: only rent no sale
+https://ikman.lk/en/ads/sri-lanka/holiday-short-term-rental?categoryType=ads
+
+
+
+Rooms and Annex:
+https://ikman.lk/en/ads/sri-lanka/rooms-annexes?categoryType=ads
+
+New Development:
+https://ikman.lk/en/ads/sri-lanka/new-developments?categoryType=ads
+
+
+District vise fitlering: 
+https://ikman.lk/en/ads/colombo/property?categoryType=ads
+https://ikman.lk/en/ads/<palace>/property?categoryType=ads
+
+Places: 
+gampaha
+    negombo
+    gampaha
+    kadawatha
+    wattala
+    ja-ela
+    delgoda
+    divulapitiya
+    ganemulla
+    kandana
+    katunayake
+    kelaniya
+    kiribathgoda
+    minuwangoda
+    mirigama
+    nittambuwa
+    ragama
+    veyangoda
+
+
+colombo: 
+    colombo-6
+    dehiwala
+    malabe
+    mount-lavinia
+    nugegoda
+    angoda
+    athurugiriya
+    avissawella
+    battaramulla
+    boralesgamuwa
+    colombo-1
+    colombo-10
+    colombo-11
+    colombo-12
+    colombo-13
+    colombo-14
+    colombo-15
+    colombo-2
+    colombo-3
+    colombo-4
+    colombo-5
+    colombo-7
+    colombo-8
+    colombo-9
+    hanwella
+    homagama
+    kaduwela
+    kesbewa
+    kohuwala
+    kolonnawa
+    kottawa
+    kotte
+
+
+kalutara:
+    horana
+    panadura
+    kalutara
+    bandaragama
+    ingiriya
+    alutgama
+    beruwala
+    matugama
+    wadduwa
+
+kandy:
+    peradeniya
+    katugastota
+    kundasale
+    gampola
+    akurana
+    ampitiya
+    digana
+    galagedara
+    gelioya
+    kadugannawa
+    nawalapitiya
+    pilimatalawa
+    wattegama
+
+kurunegala:
+    kuliyapitiya
+    pannala
+    narammala
+    alawwa
+    bingiriya
+    galgamuwa
+    giriulla
+    hettipola
+    ibbagamuwa
+    mawathagama
+    nikaweratiya
+    polgahawela
+    wariyapola
+
+ampara:
+    akkarepattu
+    sainthamaruthu
+    kalmunai
+
+anuradhapura: 
+    kekirawa
+    tambuttegama
+    medawachchiya
+    habarana
+    eppawala
+    galenbindunuwewa
+    mihintale
+    nochchiyagama
+    talawa
+
+badulla:
+    badulla
+    bandarawela
+    welimada
+    ella
+    haputale
+    diyatalawa
+    hali-ela
+    mahiyanganaya
+    passara
+
+batticaloa:
+
+galle:
+    ambalangoda
+    hikkaduwa
+    elpitiya
+    karapitiya
+    ahangama
+    baddegama
+    batapola
+    bentota
+
+hambantota:
+   tangalla
+   ambalantota
+   tissamaharama
+   beliatta
+
+jaffna: 
+    nallur
+    chavakachcheri
+
+kegalle:
+    mawanella
+    rambukkana
+    ruwanwella
+    warakapola
+    dehiowita
+    deraniyagala
+    galigamuwa
+    kitulgala
+    yatiyantota
+
+kilinochchi: 
+
+mannar: 
+
+matale: 
+    matale
+    dambulla
+    sigiriya
+    ukuwela
+    galewela
+    palapathwela
+    rattota
+    yatawatta
+
+matara: 
+    weligama
+    dikwella
+    kekanadurra
+    akuressa
+    deniyaya
+    hakmana
+    kamburugamuwa
+    kamburupitiya
+
+moneragala: 
+    kataragama
+    wellawaya
+    moneragala
+    buttala
+    bibile
+
+mullativu: 
+
+nuwara-eliya:
+    hatton
+    ginigathena
+    madulla
+
+polonnaruwa: 
+    hingurakgoda
+    kaduruwela
+    medirigiriya
+
+puttalam:
+    chilaw
+    wennappuwa
+    nattandiya
+    dankotuwa
+    marawila
+
+ratnapura:
+    balangoda
+    embilipitiya
+    eheliyagoda
+    pelmadulla
+    kuruwita
+
+trincomalee:
+    kinniya
+
+vavuniya:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
