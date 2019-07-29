@@ -1,0 +1,20 @@
+1563528169158	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kKq5pYNViaiW"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/shank which is owned by shank.)
+1563528236664	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kOASKMSyaI0p"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/shank which is owned by shank.)
+1563528580957	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5t3ZShkhSeFW"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/shank which is owned by shank.)
+1563528587539	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Cz0WaOelQrZ4"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/shank which is owned by shank.)
+1563528605202	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.2i2yauLgq4FT"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/shank which is owned by shank.)
+1563528612252	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.URvqx2JwZuJv"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/shank which is owned by shank.)
+1563528703954	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Bbf8S1sHtqPo"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/shank which is owned by shank.)
+1563529090247	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.KsMcYLd1whaU"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/shank which is owned by shank.)
+1563529094720	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.W2Cmkt5hjoKE"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/shank which is owned by shank.)
+1563532018668	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.U7NaEzXDZHtz"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/shank which is owned by shank.)
