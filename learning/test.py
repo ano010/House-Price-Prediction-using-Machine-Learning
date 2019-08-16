@@ -18,7 +18,7 @@ url = 'https://ikman.lk/en/ads/sri-lanka/property'
 # soup = bs(response_property_all.content)
 
 # allProperties = soup.findAll('div' , { 'class': 'ui-item'})
-root = r'./NEW_NEW  _DATA'
+root = r'./data_set_aug_15_nw'
 def writeHtmlData(dirPath, fileName, htmlString):
     try:
         os.mkdir(dirPath)
@@ -291,17 +291,17 @@ for index in range(len(propertyTypes)):
     for key, value in saleFileUrls.items():
         url = getUrl(type, key);
         print(url, value);
-        if (url == 'https://ikman.lk/en/ads/colombo/new-developments'):
-            firstTime = False
-            # continue;
-        if (firstTime):
-            continue
+        if (url == 'https://ikman.lk/en/ads/colombo/houses'):
+            continue;
+        # if (firstTime):
+        #     continue
         res = None
         page = 1;
         urls = []
         retryCount = 0
         while 1:
-            res = r.get(url,params={'page': page, 'type': 'for_sale'})
+            # res = r.get(url,params={'page': page, 'type': 'for_sale'})
+            res = r.get(url,params={'page': page})
             if res is None:
                 print(page , ' : ', 'sale : ', 'Failed', url )
                 break;
@@ -326,7 +326,7 @@ for index in range(len(propertyTypes)):
                     continue
             else:
                 break;
-
+        
         fetchItemsRequest(urls, toDirPath(value))
 
     
