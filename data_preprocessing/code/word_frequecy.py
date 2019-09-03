@@ -36,7 +36,7 @@ def analyse_csv(path, *colums):
     print(len(words))
     unique_words = list(set(words))
     words_freq = [(w, words.count(w))   for w in unique_words]
-    words_freq.sort(key=lambda x : x[1])
+    words_freq.sort(key=lambda x : x[0])
     for t in words_freq:
         print(t[0], '  :   ', t[1])
             
