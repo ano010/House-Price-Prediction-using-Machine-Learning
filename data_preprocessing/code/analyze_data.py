@@ -40,7 +40,7 @@ def word_frequency_count(path, *args):
     else:
         word = ''
         for li in word_list:
-            if li[0].__eq__(args[0]):
+            if li[0].find(args[0]) != -1:
                 print(li)
                 word = li
         if not word:
@@ -48,6 +48,21 @@ def word_frequency_count(path, *args):
 
 def find_near_words(word, wordList):
     matchIndexes = [index for (index, w)  in enumerate(wordList) if w.find(word) != -1]
+
+    for i in matchIndexes:
+        if i == 0:
+            return [wordList[i], wordList[i+1], wordList[i+2], wordList[i+3]]
+        elif i == wordList.__len__() - 1:
+            return [wordList[i-3], wordList[i-2], wordList[i-1], wordList[i]]
+        elif i == 1:
+            return [wordList[i-1], wordList[i], wordList[i+1], wordList[i+2]]
+        elif i == wordList.__len__() - 2:
+            return [wordList[i-2], wordList[i-1], wordList[i], wordList[i+1]]
+        else:
+            return [wordList[i-2], wordList[i-1], wordList[i], wordList[i+1], wordList[i+2]]
+
+def find_near_words_exact(word, wordList):
+    matchIndexes = [index for (index, w)  in enumerate(wordList) if w.__eq__(word)]
 
     for i in matchIndexes:
         if i == 0:
@@ -73,6 +88,24 @@ def analyze_csv_for_near_words(path, word):
         wordList = [w for w in wordList if not w in stop_words]
 
         near_words = find_near_words(word, wordList)
+
+        if not near_words:
+            continue
+
+        print(near_words)
+
+def analyze_csv_for_near_words_exact(path, word):
+    df = pd.read_csv(path, encoding='utf-8')
+
+    for index, row in df.iterrows():
+        str = row[1] + ' ' + row[5]
+        stop_words = set(stopwords.words('english'))
+
+        wordList = word_tokenize(str)
+        wordList = [w.lower() for w in wordList]
+        wordList = [w for w in wordList if not w in stop_words]
+
+        near_words = find_near_words_exact(word, wordList)
 
         if not near_words:
             continue
@@ -126,6 +159,8 @@ elif sys.argv[1].__eq__('-fre') and len(sys.argv) == 3:
     word_frequency_count('../resource/new.csv', sys.argv[2])
 elif sys.argv[1].__eq__('-sim'):
     find_similar_words('../resource/new.csv', sys.argv[2])
+elif sys.argv[1].__eq__('-near') and sys.argv[2].__eq__('-ext'):
+    analyze_csv_for_near_words_exact('../resource/new.csv', sys.argv[3])
 elif sys.argv[1].__eq__('-near'):
     analyze_csv_for_near_words('../resource/new.csv', sys.argv[2])
 elif sys.argv[1].__eq__('-tog') and sys.argv[2] and sys.argv[3]:
