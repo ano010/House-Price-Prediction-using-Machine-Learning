@@ -1,0 +1,4 @@
+model,best_score,best_params
+lr,-0.017958616178734017,{}
+rf,0.4689706482913546,"{'max_depth': 15, 'max_features': 1, 'n_estimators': 70}"
+knn,0.26646025708900745,{'n_neighbors': 50}
