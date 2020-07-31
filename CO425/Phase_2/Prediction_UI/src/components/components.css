@@ -1,0 +1,23 @@
+.card-header{
+    font-weight: bolder;
+    font-size: larger;
+}
+.navbar{
+    
+    font-weight: bolder;
+    font-size: larger;
+}
+.Input .fa-exclamation-circle{
+    color:red ;
+    padding: 10px;
+}
+#message{
+    color:red;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bolder;
+}
+.row{
+    margin-left:0;
+    margin-right: 0;
+}

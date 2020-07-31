@@ -4,9 +4,9 @@ from django.db import models
 class house(models.Model):
     location = models.CharField(max_length=50)
     beds = models.CharField(max_length=50),
-    baths = models.IntegerField,
-    house_size = models.FloatField,
-    land_size = models.FloatField,
+    baths = models.CharField,
+    house_size = models.CharField,
+    land_size = models.CharField,
     
     # def __str__(self):
     #     return {

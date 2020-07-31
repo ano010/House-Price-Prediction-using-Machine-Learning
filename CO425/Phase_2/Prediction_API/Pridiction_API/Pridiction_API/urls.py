@@ -20,5 +20,5 @@ from webapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-     path('predictor/', views.priceCalculator.as_view()),
+     path('predictor/', views.home),
 ]
